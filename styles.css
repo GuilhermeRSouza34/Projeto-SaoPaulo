@@ -1,0 +1,245 @@
+.tituloprincipal img {
+    width: 165px;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    }
+
+header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    }
+
+h1 {
+    color: red;
+    text-align: center;
+    }
+
+h2 {
+    color: red;
+    }
+
+
+  /* Estilos para a navegação em abas */
+nav {
+    margin-top: 20px;
+    }
+
+.tab-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    
+}
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.lista-de-nomes {
+    list-style-type: disc;
+}
+
+.imagem-jogador {
+    width: 800px;
+    height: auto;
+    border: 1px solid #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+.tituloprincipal {
+    color: #fff;
+}
+
+.futebol-masculino{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.futebol-masculino{
+
+    padding: 20px;
+    text-align: center;
+}
+
+.futebol-masculino img { 
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.futebol-masculino h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.futebol-feminino{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.futebol-feminino{
+    padding: 20px;
+    text-align: center;
+}
+
+.futebol-feminino img { 
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.futebol-feminino h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.categoria-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.categoria-base{
+    padding: 20px;
+    text-align: center;
+}
+
+.categoria-base img { 
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.categoria-base h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.basquete-tricolor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.basquete-tricolor{
+    padding: 20px;
+    text-align: center;
+}
+
+.basquete-tricolor img { 
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.basquete-tricolor h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.galeriadeTrofeus{
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.galeriadeTrofeus img {
+    width: 100%;
+    height: auto;
+}
+
+.galeriadeTrofeus img {
+    opacity: 0.8;
+}
+
+.historiaClube {
+    display: block;
+    width: 1100px;
+    margin: 20px auto;
+}
+
+.historiaClube img {
+    width: 100%;
+    height: auto;
+}
+
+.historiaClube img {
+    opacity: 0.8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #353434;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[typec=]
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: red;
+}
